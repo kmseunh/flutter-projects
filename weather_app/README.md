@@ -10,7 +10,7 @@
 
 | 초기화면 |
 |:----:|
-| ![image](https://github.com/kmseunh/flutter-projects/assets/105186724/467919e5-b56a-48f6-9321-1fa5a86332a5) |
+| <img src="https://github.com/kmseunh/flutter-projects/assets/105186724/467919e5-b56a-48f6-9321-1fa5a86332a5" width="50%"> |
 
 &nbsp;
 
@@ -22,7 +22,7 @@
 
 &nbsp;
 
-## </> 주요 코드
+## </img> 주요 코드
 
 ```dart
 Future<Map<String, dynamic>> getCurrentWeather() async {
