@@ -6,7 +6,7 @@ class TodoItem extends StatelessWidget {
   final ValueChanged<bool?> onChanged;
   final VoidCallback? onTap; // onTap 콜백 추가
 
-  TodoItem({
+  const TodoItem({super.key, 
     required this.todo,
     required this.onChanged,
     this.onTap, // 생성자에 onTap 추가
