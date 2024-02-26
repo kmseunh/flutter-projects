@@ -3,6 +3,8 @@ import 'package:todolist/models/todo_model.dart';
 import 'package:todolist/widgets/todo_item.dart';
 
 class TodoListScreen extends StatefulWidget {
+  const TodoListScreen({super.key});
+
   @override
   _TodoListScreenState createState() => _TodoListScreenState();
 }
@@ -14,7 +16,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Todo List'),
+        title: const Text('Todo List'),
       ),
       body: ListView.builder(
         itemCount: todos.length,
@@ -27,7 +29,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
                 todos.removeAt(index);
               });
               ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(
+                const SnackBar(
                   content: Text('Todo deleted'),
                 ),
               );
@@ -48,7 +50,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _addTodo,
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
     );
   }
@@ -59,7 +61,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
       builder: (BuildContext context) {
         String newTodoTitle = '';
         return AlertDialog(
-          title: Text('Add New Todo'),
+          title: const Text('Add New Todo'),
           content: TextField(
             onChanged: (value) {
               newTodoTitle = value;
@@ -73,7 +75,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
                 });
                 Navigator.of(context).pop();
               },
-              child: Text('Add'),
+              child: const Text('Add'),
             ),
           ],
         );
@@ -87,7 +89,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
       builder: (BuildContext context) {
         String updatedTitle = todo.title;
         return AlertDialog(
-          title: Text('Edit Todo'),
+          title: const Text('Edit Todo'),
           content: TextField(
             onChanged: (value) {
               updatedTitle = value;
@@ -102,13 +104,13 @@ class _TodoListScreenState extends State<TodoListScreen> {
                 });
                 Navigator.of(context).pop();
               },
-              child: Text('Save'),
+              child: const Text('Save'),
             ),
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop();
               },
-              child: Text('Cancel'),
+              child: const Text('Cancel'),
             ),
           ],
         );
