@@ -10,7 +10,7 @@
 
 | 초기화면 | 목록화면 |
 |:----:|:----:|
-| ![image](https://github.com/kmseunh/flutter-projects/assets/105186724/799dfdee-78ef-46ee-b587-34d7f318b983) | ![image](https://github.com/kmseunh/flutter-projects/assets/105186724/6a960df5-78c1-4cdb-962d-95cea7953704) |
+| <img src="https://github.com/kmseunh/flutter-projects/assets/105186724/799dfdee-78ef-46ee-b587-34d7f318b983" width="50%"> | <img src="https://github.com/kmseunh/flutter-projects/assets/105186724/6a960df5-78c1-4cdb-962d-95cea7953704" width="50%"> |
 
 &nbsp;
 
@@ -23,7 +23,7 @@
 
 &nbsp;
 
-## </> 주요 코드
+## </img> 주요 코드
 
 ```dart
 class _TodoListScreenState extends State<TodoListScreen> {
