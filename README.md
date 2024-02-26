@@ -17,3 +17,4 @@
 ### Projects
 
 - [Currency Converter](https://github.com/kmseunh/flutter-projects/tree/main/currency_converter)
+- [Weather App](https://github.com/kmseunh/flutter-projects/tree/main/weather_app)
