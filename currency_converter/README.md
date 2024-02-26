@@ -10,7 +10,7 @@
 
 | 초기화면 | 실행화면 |
 |:----:|:----:|
-| ![image](https://github.com/kmseunh/svelte-projects/assets/105186724/9981266a-4e3e-437e-816c-2f0fb1fb8497) | ![image](https://github.com/kmseunh/svelte-projects/assets/105186724/2ce85b3e-f401-4320-b642-22da59cd15b7) |
+| <img src="https://github.com/kmseunh/svelte-projects/assets/105186724/9981266a-4e3e-437e-816c-2f0fb1fb8497" width="60%" height="50%"/> | <img src="https://github.com/kmseunh/svelte-projects/assets/105186724/2ce85b3e-f401-4320-b642-22da59cd15b7" width="60%" height="50%"/> |
 
 &nbsp;
 
