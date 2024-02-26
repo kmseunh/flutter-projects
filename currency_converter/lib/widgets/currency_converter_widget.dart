@@ -3,7 +3,7 @@ import 'package:currency_converter/utils/constants.dart';
 import 'package:currency_converter/utils/converter.dart';
 
 class CurrencyConverterWidget extends StatefulWidget {
-  const CurrencyConverterWidget({Key? key}) : super(key: key);
+  const CurrencyConverterWidget({super.key});
 
   @override
   _CurrencyConverterWidgetState createState() =>
