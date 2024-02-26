@@ -1,5 +1,5 @@
-import 'package:currency_converter/currency_converter_material_page.dart';
 import 'package:flutter/material.dart';
+import 'package:currency_converter/currency_converter_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +10,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    return const MaterialApp(
-      home: CurrencyConverterMaterialPage(),
+    return MaterialApp(
+      theme: ThemeData(
+        primaryColor: Colors.blueGrey,
+        scaffoldBackgroundColor: Colors.blueGrey,
+      ),
+      home: CurrencyConverterPage(),
     );
   }
 }
