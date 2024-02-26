@@ -1,4 +1,4 @@
-# flutter-image-slider
+# flutter-currency-converter
 
 ## 💬 설명
 
