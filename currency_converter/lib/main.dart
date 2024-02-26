@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blueGrey,
         scaffoldBackgroundColor: Colors.blueGrey,
       ),
-      home: CurrencyConverterPage(),
+      home: const CurrencyConverterPage(),
     );
   }
 }
