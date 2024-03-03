@@ -1,6 +1,6 @@
 # flutter-projects
 
-> Flutter: Everything is a Widget
+> Everything is a widget
 
 <br>
 
